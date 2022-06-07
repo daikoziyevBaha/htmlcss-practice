@@ -1,0 +1,152 @@
+body {
+    margin: 20px 40px;
+  }
+  
+p {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 16px;
+}
+
+/*--- This is the CSS class for the green rectangular blocks. Note that it uses display: flex ---*/
+.wrapper {
+  display: flex;
+  height: 60px;
+  background-color: green;
+  margin-bottom: 20px;
+}
+
+/*--- flex: 1 makes it so that the div takes up all available space left in the parent element ---*/
+.redExample {
+  flex: 1;
+  background-color: red;
+}
+
+/*--- Since both .redExample and .blueExample have flex: 1, they will take up an equal amount of space because they meet in the middle ---*/
+.blueExample {
+  flex: 1;
+  background-color: blue;
+}
+
+/*--- flex-direction: row-reverse orders all child elements starting from right to left ---*/
+.emptyExample2 {
+  display: flex;
+  flex: 1;
+  flex-direction: row-reverse;
+}
+
+.blueExample2 {
+  width: 80px;
+  background-color: blue;
+}
+
+/* TODO: Add CSS for the rest of your solution below */
+.redExample3 {
+  background-color: red;
+  width: 80px;
+}
+
+.emptyExample3 {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.blueExample3 {
+  background-color: blue;
+  width: 80px;
+}
+
+.emptyExample4 {
+  display: flex;
+  flex: 1;
+  background-color: red;
+}
+
+.redExample4 {
+  flex: 1;
+}
+
+.blueExample4 {
+  background-color: blue;
+  width: 80px;
+}
+
+.emptyExample5 {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.redExample5 {
+  background-color: red;
+  width: 30px;
+  height: 30px;
+}
+
+.emptyExample6 {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+}
+
+.blueExample6 {
+  width: 80px;
+  height: 100%;
+  background-color: blue;
+}
+
+.redExample7 {
+  background-color: red;
+  width: 80px;
+}
+
+.verticalFlex {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+}
+
+.greenExample7 {
+  height: 20px;
+  width: 100%;
+  background-color: green;
+}
+
+.emptyExample8 {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.yellowExample8 {
+  background-color: orange;
+  width: 80px;
+}
+
+.emptyExample9 {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  background-color: orange;
+}
+
+.greenExample9 {
+  background-color: green;
+  width: 20px;
+}
+
+.extra {
+  /* flex: 1; */
+  justify-content: space-between;
+}
+
